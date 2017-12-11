@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>shop</title>
+	<link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+	<div class="page-header">
+		<div class="container">
+			<div class="row">
+				<div class="logo col-md-3">
+					<img src="./task/icon (3).png">
+				</div>
+				<div class="menu col-md-6">
+					<ul class="row main-menu">
+						<li class="col-md-3"><a href>Home</a></li>
+						<li class="active col-md-3"><a href>Products</a>
+							<ul class="sub-menu">
+								<li><a href="">Lorem ipsum dolor</a></li>
+								<li><a href="">Sit amet</a></li>
+								<li><a href="">Consectetur adipisicing</a></li>
+								<li><a href="">Tempor incididunt</a></li>
+								<li><a href="">Dolore magna aliqua</a></li>
+								<li><a href="">Ut enim ad minim veniam</a></li>
+								<li><a href="">Quis nostrud</a></li>
+							</ul> 
+						</li>
+						<li class="col-md-3"><a href="">Payment</a></li>
+						<li class="col-md-3"><a href="">Shipping</a></li>
+					</ul>
+				</div>
+				<div class="search-basket col-md-3">
+					<div class="row">
+						<div class="search col-md-9">
+							<!-- <div class="container">
+								<div class="row">
+									<div class="search-box col-md-9">
+										<input class="search-row" type="search" placeholder="search">
+									</div>
+									<div class="search-button col-md-3">
+										<button class="search-button" type="button"></button>
+								</div> -->
+								<!-- <div class="search-box">
+									<input class="search-row" type="search" placeholder="search">
+									<button class="search-button" type="button"></button>
+								</div> -->
+							<div class="input-group"> 
+			    				<input class="form-control" type="search" aria-label="Text input with multiple buttons" placeholder="search">
+			    				<div class="input-group-btn"> 
+					        		<button type="button" class="btn btn-default" aria-label="Help">
+					            		<span class="glyphicon glyphicon-search"></span>
+					        		</button> 
+			        			</div>
+							</div>
+						</div>
+						<div class="basket col-md-3">
+							<a href="" class="busket-box"><div class="amount">4</div></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="container">
+			<div class="row">
+				<div class="nav-bar col-md-3">
+					<form method="post" action="">
+						<p class="block-title device-type">Device type</p>
+						<p class="option">
+						<input id="device-type-1" type="checkbox" name="option1" value="t1" checked class="custom-input">
+						<label for="device-type-1" >Laptop</label>
+						</p>
+						<p class="option">
+						<input id="device-type-2" type="checkbox" name="option2" value="t2" class="custom-input">
+						<label for="device-type-2">Tablet</label>
+						</p>
+						<p class="block-title color">Color</p>
+						<p class="option">
+						<input id="color-1" type="checkbox" name="option3" value="c1" class="custom-input">
+						<label for="color-1">Black</label>
+						</p>
+						<p class="option">
+						<input id="color-2" type="checkbox" name="option4" value="c2" class="custom-input">
+						<label for="color-2">Red</label>
+						</p>
+						<p class="option">
+						<input id="color-3" type="checkbox" name="option5" value="c3" checked class="custom-input">
+						<label for="color-3">Green</label>
+						</p>
+						<p class="option">
+						<input id="color-4" type="checkbox" name="option6" value="c4" class="custom-input">
+						<label for="color-4">Blue</label>
+						</p>
+						<p class="option">
+						<input id="color-5" type="checkbox" name="option7" value="c5" class="custom-input">
+						<label for="color-5">Orange</label>
+						</p>
+						<p class="block-title RAM">RAM</p>
+						<p class="option">
+						<input id="RAM-1" type="checkbox" name="option8" value="r1" class="custom-input">
+						<label for="RAM-1">1GB</label>
+						</p>
+						<p class="option">
+						<input id="RAM-2" type="checkbox" name="option9" value="r2" class="custom-input">
+						<label for="RAM-2">2GB</label></p>
+						<p class="option">
+						<input id="RAM-3" type="checkbox" name="option10" value="r3" checked class="custom-input">
+						<label for="RAM-3">4GB</label>
+						</p>
+						<p class="option">
+						<input id="RAM-4" type="checkbox" name="option11" value="r4" class="custom-input">
+						<label for="RAM-4">6GB</label>
+						</p>
+						<p class="option">
+						<input id="RAM-5" type="checkbox" name="option12" value="r5" class="custom-input">
+						<label for="RAM-5">8GB</label>
+						</p>
+						<a href="" class="show-more">Show more options...</a>
+						<p><input type="submit" value="SUBMIT" class="submit"></p>
+					</form>
+				</div>
+				<div class="products col-md-9">
+					<p class="page-way">Home page > Products < <ins>Laptops and Tablets</ins></p>
+					<div class="row">
+						<div class="col-md-8">
+							<p class="lap-tab">Laptops and Tablets</p>
+						</div>
+						<div class="col-md-4">
+							<select>
+								<option class="select" value="s1" selected>select by price</option>
+								<option class="select" value="s2">select by name</option>
+								<option class="select" value="s3">select by date</option>
+								<option class="select" value="s4">select by popularity</option>
+							</select>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="device-box">
+								<div class="device-head">
+									<img src="./task/icon17.png" class="device">
+									<a href="#a1" class="button-head zoom"></a>
+									<a href="#a2" class="button-head like"></a>
+								</div>
+								<div class="device-description">
+									<p class="device-name">#1 Device Name</p>
+									<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p class="text"><span class="bold">type:</span> Laptop</p>
+									<p class="text"><span class="bold">screen size:</span> 7 inches</p>
+									<p class="text"><span class="bold">ram:</span> 1gb</p>
+								</div>
+								<div class="device-price">
+									<p>$599<sup> 25</sup></p>
+								</div>
+								<p class="button-device"><a href="" class="more-dit">more ditails</a></p>
+								<p class="button-device"><a href="" class="add-cart">add to cart</a></p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="device-box">
+								<div class="device-head">
+									<img src="./task/icon9.png" class="device">
+									<a href="" class="button-head zoom"></a>
+									<a href="" class="button-head like"></a>
+								</div>
+								<div class="device-description">
+									<p class="device-name">#2 Device Name</p>
+									<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p class="text"><span class="bold">type:</span> Laptop</p>
+									<p class="text"><span class="bold">screen size:</span> 7 inches</p>
+									<p class="text"><span class="bold">ram:</span> 1gb</p>
+								</div>
+								<div class="device-price">
+									<p>$1250<sup> 99</sup></p>
+								</div>
+								<p class="button-device"><a href="" class="more-dit">more ditails</a></p>
+								<p class="button-device"><a href="" class="add-cart">add to cart</a></p>
+							</div>
+						</div>
+						<div class="col-md-4" id="a2">
+							<div class="device-box">
+								<div class="device-head">
+									<img src="./task/icon10.png" class="device">
+									<a href="" class="button-head zoom"></a>
+									<a href="" class="button-head like"></a>
+								</div>
+								<div class="device-description">
+									<p class="device-name">#3 Device Name</p>
+									<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p class="text"><span class="bold">type:</span> Laptop</p>
+									<p class="text"><span class="bold">screen size:</span> 7 inches</p>
+									<p class="text"><span class="bold">ram:</span> 1gb</p>
+								</div>
+								<div class="device-price">
+									<p>$399<sup> 50</sup></p>
+								</div>
+								<p class="button-device"><a href="" class="more-dit">more ditails</a></p>
+								<p class="button-device"><a href="" class="add-cart">add to cart</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="row row-padding">
+						<div class="col-md-4">
+							<div class="device-box">
+								<div class="device-head">
+									<img src="./task/icon16.png" class="device">
+									<a href="" class="button-head zoom"></a>
+									<a href="" class="button-head like"></a>
+								</div>
+								<div class="device-description">
+									<p class="device-name">#4 Device Name</p>
+									<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p class="text"><span class="bold">type:</span> Laptop</p>
+									<p class="text"><span class="bold">screen size:</span> 7 inches</p>
+									<p class="text"><span class="bold">ram:</span> 1gb</p>
+								</div>
+								<div class="device-price">
+									<p>$599<sup> 25</sup></p>
+								</div>
+								<p class="button-device"><a href="" class="more-dit">more ditails</a></p>
+								<p class="button-device"><a href="" class="add-cart">add to cart</a></p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="device-box">
+								<div class="device-head">
+									<img src="./task/icon14.png" class="device">
+									<a href="" class="button-head zoom"></a>
+									<a href="" class="button-head like"></a>
+								</div>
+								<div class="device-description">
+									<p class="device-name">#5 Device Name</p>
+									<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p class="text"><span class="bold">type:</span> Laptop</p>
+									<p class="text"><span class="bold">screen size:</span> 7 inches</p>
+									<p class="text"><span class="bold">ram:</span> 1gb</p>
+								</div>
+								<div class="device-price">
+									<p>$1250<sup> 99</sup></p>
+								</div>
+								<p class="button-device"><a href="" class="more-dit">more ditails</a></p>
+								<p class="button-device"><a href="" class="add-cart">add to cart</a></p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="device-box">
+								<div class="device-head">
+									<img src="./task/icon12.png" class="device">
+									<a href="" class="button-head zoom"></a>
+									<a href="" class="button-head like"></a>
+								</div>
+								<div class="device-description">
+									<p class="device-name">#6 Device Name</p>
+									<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p class="text"><span class="bold">type:</span> Laptop</p>
+									<p class="text"><span class="bold">screen size:</span> 7 inches</p>
+									<p class="text"><span class="bold">ram:</span> 1gb</p>
+								</div>
+								<div class="device-price">
+									<p>$399<sup> 50</sup></p>
+								</div>
+								<p class="button-device"><a href="" class="more-dit">more ditails</a></p>
+								<p class="button-device"><a href="" class="add-cart">add to cart</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="row row-padding">
+						<div class="col-md-4">
+							<div class="device-box">
+								<div class="device-head">
+									<img src="./task/icon15.png" class="device">
+									<a href="" class="button-head zoom"></a>
+									<a href="" class="button-head like"></a>
+								</div>
+								<div class="device-description">
+									<p class="device-name">#7 Device Name</p>
+									<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p class="text"><span class="bold">type:</span> Laptop</p>
+									<p class="text"><span class="bold">screen size:</span> 7 inches</p>
+									<p class="text"><span class="bold">ram:</span> 1gb</p>
+								</div>
+								<div class="device-price">
+									<p>$599<sup> 25</sup></p>
+								</div>
+								<p class="button-device"><a href="" class="more-dit">more ditails</a></p>
+								<p class="button-device"><a href="" class="add-cart">add to cart</a></p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="device-box">
+								<div class="device-head">
+									<img src="./task/icon9.png" class="device">
+									<a href="" class="button-head zoom"></a>
+									<a href="" class="button-head like"></a>
+								</div>
+								<div class="device-description">
+									<p class="device-name">#8 Device Name</p>
+									<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p class="text"><span class="bold">type:</span> Laptop</p>
+									<p class="text"><span class="bold">screen size:</span> 7 inches</p>
+									<p class="text"><span class="bold">ram:</span> 1gb</p>
+								</div>
+								<div class="device-price">
+									<p>$1250<sup> 99</sup></p>
+								</div>
+								<p class="button-device"><a href="" class="more-dit">more ditails</a></p>
+								<p class="button-device"><a href="" class="add-cart">add to cart</a></p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="device-box">
+								<div class="device-head">
+									<img src="./task/icon10.png" class="device">
+									<a href="" class="button-head zoom"></a>
+									<a href="" class="button-head like"></a>
+								</div>
+								<div class="device-description">
+									<p class="device-name">#9 Device Name</p>
+									<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p class="text"><span class="bold">type:</span> Laptop</p>
+									<p class="text"><span class="bold">screen size:</span> 7 inches</p>
+									<p class="text"><span class="bold">ram:</span> 1gb</p>
+								</div>
+								<div class="device-price">
+									<p>$399<sup> 50</sup></p>
+								</div>
+								<p class="button-device"><a href="" class="more-dit">more ditails</a></p>
+								<p class="button-device"><a href="" class="add-cart">add to cart</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+						<a href="" class="load-more">Load more...</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+	<p>&copy; Copyrighting 2017</p>
+	</footer>
+
+
+</body>
+</html>
