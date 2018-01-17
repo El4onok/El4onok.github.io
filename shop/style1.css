@@ -232,6 +232,12 @@ span.glyphicon-search {
     color: #ffffff;
 }
 
+.slider div {
+	font-size: 50px;
+	text-align: center;
+	padding: 40px 0;
+}
+
 .nav-bar {	
 	padding-left: 0;
 }
@@ -371,7 +377,7 @@ select > option:hover {
 	right: 4px;
 }
 
-a.zoom:active {
+a.zoom:visited {
 	background-image: url(./task/icon6.png);
 	background-color: #2C71B8;
 }
@@ -382,8 +388,7 @@ a.like {
 	right: 4px;
 }
 
-a.like:active,
-a.like:visited {
+a.liked {
 	background-image: url(./task/icon7.png);
 	background-color: #2C71B8;
 }
@@ -471,6 +476,8 @@ footer {
 	color: #2C71B8;
 	line-height: 100px;
 }
+
+
   
 
 
